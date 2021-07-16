@@ -1,4 +1,4 @@
-# Platform API Project Seed
+# Screenshot API Project Seed
 
 This project seed includes the following [Platform API](https://openfin.co/platform-api) capabilites:
 
@@ -9,8 +9,8 @@ This project seed includes the following [Platform API](https://openfin.co/platf
 * Examples of visual customization via CSS
 * Examples of visual customization by providing a custom Platform Window
 * Examples of behavioral customization by overriding the Platform APIs
+* The ability to screenshot a section of a view
 
-[Launch in OpenFin](https://openfin.github.io/start/?manifest=https%3A%2F%2Fopenfin.github.io%2Fplatform-api-project-seed%2Fpublic.json)
 
 ## Running the code
 
@@ -22,10 +22,10 @@ This project seed includes the following [Platform API](https://openfin.co/platf
 
 **Advanced Usage:**
 
-For users who would like to test features with a different OpenFin Runtime, configure your workspace as follows:
-
-* Generate a local manifest file, _local.json_, with the specified Runtime version, e.g. canary: `npm start -- canary`
-* Subsequent launches will automatically use _local.json_; delete this file to revert to _app.json_
+* Click on the menu tab listed as three lines in the top right
+* Click on the Screenshot option in the left menu.
+* Click on the Shot button to open a new window with the section of the view that will be screenshot
+* In the screenshot.js you could edit the area of the view 
 
 ## Understanding the code
 
@@ -50,6 +50,7 @@ Provides examples of the following functionality:
 * Creating a regular OpenFin Window
 * Saving/Restoring Platform Snapshots
 * Applying a preset arrangement on the current window (Grid, Tabs, Rows)
+* Allowing you to take a screenshot of the current view
 
 ##### title-bar
 Provides examples of the following functionality:
