@@ -41,8 +41,8 @@ class LeftMenu extends HTMLElement {
                 processAffinity: 'ps_1'
             },
             {
-                url: `http://localhost:5555/history.html`,
-                printName: "History",
+                url: `http://localhost:5555/screenshot.html`,
+                printName: "Screenshot",
                 processAffinity: 'ps_1'
             }
         ];
